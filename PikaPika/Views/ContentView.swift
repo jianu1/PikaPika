@@ -8,34 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-
-    @State var pokemon = [PokemonEntry]()
-    @State var searchPokemon = ""
     
+    @StateObject var viewModel = PokemonViewModel()
+
     var body: some View {
         NavigationView {
-            List {
-                ForEach(searchPokemon == "" ? pokemon : pokemon.filter({ $0.name.contains(searchPokemon.lowercased()) })) { entry in
-                    // Used LazyHstack ca sa nu incarc view tot odata, si doar atunci cand se face scroll sa se incarce restul de pokemoni
-                    LazyHStack {
-                        PokemonImage(imageLink: "\(entry.url)")
-                            .padding(.trailing, 20)
-                        NavigationLink("\(entry.name)".capitalized, destination: Text("Detail view for \(entry.name)"))
+            List{
+                ForEach(viewModel.filteredPokemonList) { pokemon in
+                    HStack {
+                        NavigationLink(destination: PokemonDetailsView(pokemon: pokemon)) {
+                            HStack {
+                                PokemonView(pokemon: pokemon, dimensions: 75.0)
+                                Text(pokemon.name)
+                            }
+                        }
                     }
                 }
             }
-            .onAppear {
-                PokemonAPI().getData { pokemon in
-                    self.pokemon = pokemon
-                    
-                    for poke in pokemon {
-                        print(poke)
-                    }
-                }
-            }
-            .searchable(text: $searchPokemon)
-            .navigationTitle("PikaPika")
+            .animation(.easeInOut(duration: 0.3), value: viewModel.filteredPokemonList.count)
+            .navigationTitle("Pokemon List")
+            .searchable(text: $viewModel.searchPokemon)
         }
+        .onAppear {
+            viewModel.getPokemonList()
+        }
+        .environmentObject(viewModel)
     }
 }
 struct ContentView_Previews: PreviewProvider {
