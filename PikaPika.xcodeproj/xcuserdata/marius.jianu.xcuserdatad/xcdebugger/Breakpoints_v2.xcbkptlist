@@ -55,192 +55,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PikaPika/ViewModels/PokemonViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getDetaidPokemon(pokemon:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800 - 6ab9e7b059b2c76d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "38"
-                  endingLineNumber = "38"
-                  offsetFromSymbolStart = "63">
-               </Location>
-               <Location
-                  uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800 - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "209">
-               </Location>
-               <Location
-                  uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800 - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "134">
-               </Location>
-               <Location
-                  uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800 - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "59E9CE53-33AE-41D4-B711-37DDE38CE800 - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "53">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "PikaPika/ViewModels/PokemonViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getDetaidPokemon(pokemon:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "134">
-               </Location>
-               <Location
-                  uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "174">
-               </Location>
-               <Location
-                  uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC - 905bec0413044159"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "36">
-               </Location>
-               <Location
-                  uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC - 905bec04130441ba"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "209">
-               </Location>
-               <Location
-                  uuid = "7DB7AF11-0C2D-48E6-888D-3EE2D1030BEC - 905bec04130441ba"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in PikaPika.PokemonViewModel.getDetaidPokemon(pokemon: PikaPika.Pokemon) -&gt; ()"
-                  moduleName = "PikaPika"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/ViewModels/PokemonViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "67">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "45BF9E53-56F3-46BE-B7C8-D0E45224042F"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -284,6 +98,54 @@
             endingLineNumber = "48"
             landmarkName = "fetchData(id:completion:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA075C65-C19C-4980-BA5C-8B41C491FE3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PikaPika/Views/PokemonDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "BA075C65-C19C-4980-BA5C-8B41C491FE3C - 70d6d4075e7c826c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in PikaPika.PokemonDetailsView.body.getter : some"
+                  moduleName = "PikaPika"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/Views/PokemonDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "BA075C65-C19C-4980-BA5C-8B41C491FE3C - aabbfb0f4921675e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;PikaPika.DetailPokemon&gt;) -&gt; () in closure #2 () -&gt; () in PikaPika.PokemonDetailsView.body.getter : some"
+                  moduleName = "PikaPika"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marius.jianu/Developer/Personal%20Projects/iOS/PikaPika/PikaPika/Views/PokemonDetailsView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
