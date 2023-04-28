@@ -33,10 +33,10 @@ final class PokemonViewModel: ObservableObject {
         return 0
     }
     
-    func getDetaidPokemon(pokemon: Pokemon) {
+    func getDetailedPokemon(pokemon: Pokemon) {
         let id = getPokeomnIndex(pokemon: pokemon)
-        pokemonManager.fetchData(id: id) { data, _ in
-            self.pokemonDetails = data
+        pokemonManager.fetchDetailedPokemon(id: id) { result, error in
+            self.pokemonDetails = result
         }
     }
     

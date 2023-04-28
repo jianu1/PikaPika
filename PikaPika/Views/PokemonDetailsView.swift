@@ -20,11 +20,11 @@ struct PokemonDetailsView: View {
             VStack(spacing: 10.0) {
                 Text("ID: \(viewModel.pokemonDetails?.id ?? 0)")
                 Text("Weight: \(viewModel.formatHW(value: viewModel.pokemonDetails?.weight ?? 0)) KG")
-                Text("Height: \(viewModel.formatHW(value: viewModel.pokemonDetails?.weight ?? 0)) M")
+                Text("Height: \(viewModel.formatHW(value: viewModel.pokemonDetails?.height ?? 0)) M")
             }
         }
         .onAppear {
-            viewModel.getDetaidPokemon(pokemon: pokemon)
+            viewModel.getDetailedPokemon(pokemon: pokemon)
         }
     }
 }
